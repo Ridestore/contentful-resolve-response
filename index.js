@@ -18,7 +18,7 @@ function cloneDeep(obj) {
 
     if (obj instanceof Object) {
         return Object.keys(obj).reduce((newObj, key) => {
-            newObj[key] = deepCopy(obj[key]);
+            newObj[key] = cloneDeep(obj[key]);
             return newObj;
         }, {})
     }
