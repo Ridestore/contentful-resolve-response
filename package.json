@@ -1,6 +1,6 @@
 {
   "name": "contentful-resolve-response",
-  "version": "1.1.4",
+  "version": "1.1.5",
   "description": "",
   "main": "./dist/cjs/index.js",
   "module": "./dist/esm/index.js",
@@ -22,9 +22,6 @@
   },
   "engines": {
     "node": ">=4.7.2"
-  },
-  "dependencies": {
-    "lodash": "^4.17.15"
   },
   "devDependencies": {
     "@contentful/eslint-config-backend": "^7.0.0",
