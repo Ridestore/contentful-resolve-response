@@ -11,7 +11,7 @@ function cloneDeep(obj) {
 
     if (obj instanceof Array) {
         return obj.reduce((arr, item, i) => {
-            arr[i] = deepCopy(item);
+            arr[i] = cloneDeep(item);
             return arr;
         }, []);
     }
